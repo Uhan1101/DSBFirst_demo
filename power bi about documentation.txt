@@ -1,0 +1,49 @@
+BASIC INFORMATION
+Report File Name (.pbix): 
+Sensitivity Label: 
+Confidentiality Level (Public / Internal / Restricted): 
+Created Date: 
+
+PURPOSE & SCOPE
+Business Purpose / Narrative: 
+In-Scope Topics: 
+Out-of-Scope Topics: 
+Primary Business Processes Supported: 
+
+KEY QUESTIONS ANSWERED
+Q1: 
+Q2: 
+Q3: 
+Additional Decision Support Notes: 
+
+AUDIENCE
+Primary Audience (Roles / Teams): 
+Self-Service Enabled (Y/N): 
+
+OWNERSHIP & SUPPORT
+Business Owner (Name / Email): 
+Technical Owner (Name / Email): 
+Support SLA / Response Expectation: 
+Power BI App Name (if published as App): 
+
+SECURITY & ACCESS
+AD Security Group(s): 
+Row-Level Security Roles (if any): 
+Object-Level Security (if any): 
+Data Classification Notes: 
+External Sharing Allowed (Y/N): 
+Certified / Promoted (Y/N): 
+
+DATA SOURCES
+Source Systems (High-Level): 
+Connection Mode (Import / DirectQuery / Mixed): 
+Primary Database / Endpoint: 
+Schemas Used: 
+Tables / Views (business labels): 
+
+DATA FRESHNESS
+Refresh Pattern / Schedule: 
+
+
+FULL DOCUMENTATION LINK
+Link: 
