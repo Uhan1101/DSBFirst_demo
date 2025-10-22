@@ -1,0 +1,42 @@
+{
+  "config": "{\"version\":\"5.66\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"type\":2,\"version\":{\"visual\":\"1.8.95\",\"report\":\"2.0.95\",\"page\":\"1.3.95\"}},\"customTheme\":{\"type\":2,\"version\":{\"visual\":\"2.1.0\",\"report\":\"2.1.0\",\"page\":\"2.0.0\"}}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "6004f6f78eb3e4f37f52",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"9315c08ea99190ea18b2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":110.38532110091744,\"y\":66.93577981651376,\"z\":0,\"width\":987.5963302752293,\"height\":450.9357798165138,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Columns\":[{\"queryRef\":\"ANALYST v_dim_Tid_Kalender.MÅNEDNAVN_L\",\"active\":true}],\"Rows\":[{\"queryRef\":\"ANALYST v_dim_Tid_Kalender.ÅR\",\"active\":true}],\"Values\":[{\"queryRef\":\"Min(ANALYST v_dim_Tid_Kalender.DATO_KORT)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"ANALYST v_dim_Tid_Kalender\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"MÅNEDNAVN_L\"},\"Name\":\"ANALYST v_dim_Tid_Kalender.MÅNEDNAVN_L\",\"NativeReferenceName\":\"MÅNEDNAVN_L\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"ÅR\"},\"Name\":\"ANALYST v_dim_Tid_Kalender.ÅR\",\"NativeReferenceName\":\"ÅR\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"DATO_KORT\"}},\"Function\":2},\"Name\":\"Min(ANALYST v_dim_Tid_Kalender.DATO_KORT)\",\"NativeReferenceName\":\"Count of DATO_KORT\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[{\"name\":\"fe04d389540d8a894712\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"ANALYST v_dim_Tid_Kalender\"}},\"Property\":\"ÅR\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"ANALYST v_dim_Tid_Kalender\",\"Type\":0}],\"Where\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"ÅR\"}},\"Right\":{\"Literal\":{\"Value\":\"2023L\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"ÅR\"}},\"Right\":{\"Literal\":{\"Value\":\"2025L\"}}}}}}}]},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 450.94,
+          "width": 987.60,
+          "x": 110.39,
+          "y": 66.94,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

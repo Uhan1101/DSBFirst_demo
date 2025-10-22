@@ -1,0 +1,329 @@
+table 'ANALYST v_dim_Tid_Kalender'
+	lineageTag: b5fee3c0-bcfb-41cd-a60f-ec562910af8b
+
+	column SKEY
+		dataType: int64
+		formatString: 0
+		lineageTag: fcd8e475-da39-4e83-8fe0-2bf6afc45eb8
+		summarizeBy: sum
+		sourceColumn: SKEY
+
+		annotation SummarizationSetBy = Automatic
+
+	column BKEY
+		dataType: int64
+		formatString: 0
+		lineageTag: 636d3b55-1b89-4ce0-943d-733d4e9a7342
+		summarizeBy: sum
+		sourceColumn: BKEY
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATO
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: f4510b2f-5a72-4f87-ae3a-a321d51624d6
+		summarizeBy: none
+		sourceColumn: DATO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DAGNAVN
+		dataType: string
+		lineageTag: f6897cfd-33d4-4477-bfaa-4cd4261c9d33
+		summarizeBy: none
+		sourceColumn: DAGNAVN
+
+		annotation SummarizationSetBy = Automatic
+
+	column HELLIGDAG
+		dataType: string
+		lineageTag: 65159134-3a96-4bec-9d3a-fe09705960a8
+		summarizeBy: none
+		sourceColumn: HELLIGDAG
+
+		annotation SummarizationSetBy = Automatic
+
+	column DAGHELLIGDAG
+		dataType: string
+		lineageTag: 983ee527-a96a-4564-a31b-b2f857ca1afb
+		summarizeBy: none
+		sourceColumn: DAGHELLIGDAG
+
+		annotation SummarizationSetBy = Automatic
+
+	column DAGIUGE
+		dataType: int64
+		formatString: 0
+		lineageTag: c1309e0d-762f-4ccb-b75a-35b9fd36b1ce
+		summarizeBy: sum
+		sourceColumn: DAGIUGE
+
+		annotation SummarizationSetBy = Automatic
+
+	column DAGIMÅNED
+		dataType: int64
+		formatString: 0
+		lineageTag: c0495d94-d303-40b7-8ed9-cce81572dc65
+		summarizeBy: sum
+		sourceColumn: DAGIMÅNED
+
+		annotation SummarizationSetBy = Automatic
+
+	column UGE
+		dataType: int64
+		formatString: 0
+		lineageTag: f322b96a-31c4-4e9d-9607-e17c4c950b4d
+		summarizeBy: sum
+		sourceColumn: UGE
+
+		annotation SummarizationSetBy = Automatic
+
+	column MÅNED
+		dataType: int64
+		formatString: 0
+		lineageTag: 3c2f7d9a-f9f6-4c08-be22-2b4948946c14
+		summarizeBy: sum
+		sourceColumn: MÅNED
+
+		annotation SummarizationSetBy = Automatic
+
+	column MÅNEDNAVN
+		dataType: string
+		lineageTag: 1b14e2c8-f7d6-46ed-b2a6-d6eddedba3ed
+		summarizeBy: none
+		sourceColumn: MÅNEDNAVN
+
+		annotation SummarizationSetBy = Automatic
+
+	column KVARTAL
+		dataType: int64
+		formatString: 0
+		lineageTag: ed36faed-30bf-4dbc-96f6-63093685a5c5
+		summarizeBy: sum
+		sourceColumn: KVARTAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column HALVÅR
+		dataType: int64
+		formatString: 0
+		lineageTag: 0446fb78-9f95-42e5-a6d8-c29929f0c233
+		summarizeBy: sum
+		sourceColumn: HALVÅR
+
+		annotation SummarizationSetBy = Automatic
+
+	column ÅR
+		dataType: int64
+		formatString: 0
+		lineageTag: 7a3e0fd2-731e-4b4b-961e-4c4848e9786e
+		summarizeBy: sum
+		sourceColumn: ÅR
+
+		annotation SummarizationSetBy = Automatic
+
+	column SÆSON
+		dataType: string
+		lineageTag: 186e4cb1-30fa-437f-a39f-90e121a15bd2
+		summarizeBy: none
+		sourceColumn: SÆSON
+
+		annotation SummarizationSetBy = Automatic
+
+	column UGESTARTÅR
+		dataType: int64
+		formatString: 0
+		lineageTag: 11a9cf30-bac8-43b6-84d9-804f5694da0f
+		summarizeBy: sum
+		sourceColumn: UGESTARTÅR
+
+		annotation SummarizationSetBy = Automatic
+
+	column DAGIMÅNED0
+		dataType: string
+		lineageTag: 3b288228-0d59-47bf-af50-c786311fe5b2
+		summarizeBy: none
+		sourceColumn: DAGIMÅNED0
+
+		annotation SummarizationSetBy = Automatic
+
+	column UGE0
+		dataType: string
+		lineageTag: 74a3e985-eb28-4964-8841-083a13ed8519
+		summarizeBy: none
+		sourceColumn: UGE0
+
+		annotation SummarizationSetBy = Automatic
+
+	column MÅNED0
+		dataType: string
+		lineageTag: 99ec87a2-754a-46e2-b0b4-e9e7f5ec3851
+		summarizeBy: none
+		sourceColumn: MÅNED0
+
+		annotation SummarizationSetBy = Automatic
+
+	column ÅRDATO
+		dataType: int64
+		formatString: 0
+		lineageTag: 81db739f-688a-484d-b68c-ff31afb106d1
+		summarizeBy: sum
+		sourceColumn: ÅRDATO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ÅRUGE
+		dataType: int64
+		formatString: 0
+		lineageTag: b10607c6-6545-4d54-8621-76cb788c0959
+		summarizeBy: sum
+		sourceColumn: ÅRUGE
+
+		annotation SummarizationSetBy = Automatic
+
+	column ÅRMÅNED
+		dataType: int64
+		formatString: 0
+		lineageTag: a05dda80-6002-4f79-ba96-4f527912c7e0
+		summarizeBy: sum
+		sourceColumn: ÅRMÅNED
+
+		annotation SummarizationSetBy = Automatic
+
+	column ÅRKVARTAL
+		dataType: int64
+		formatString: 0
+		lineageTag: edc91a3c-5b33-443e-9e84-0cbfb02ac42e
+		summarizeBy: sum
+		sourceColumn: ÅRKVARTAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column ÅRHALVÅR
+		dataType: int64
+		formatString: 0
+		lineageTag: 76fa9e8d-aff0-4d8b-9308-47ebfcb82a9c
+		summarizeBy: sum
+		sourceColumn: ÅRHALVÅR
+
+		annotation SummarizationSetBy = Automatic
+
+	column JDUGE
+		dataType: int64
+		formatString: 0
+		lineageTag: 439f65e3-2614-44c1-901b-19230092b238
+		summarizeBy: sum
+		sourceColumn: JDUGE
+
+		annotation SummarizationSetBy = Automatic
+
+	column JDÅRUGE
+		dataType: int64
+		formatString: 0
+		lineageTag: 95fc246f-a59a-4b29-95ba-6c3b1b7d4c76
+		summarizeBy: sum
+		sourceColumn: JDÅRUGE
+
+		annotation SummarizationSetBy = Automatic
+
+	column JDUGE0
+		dataType: string
+		lineageTag: f11f8d22-bcd9-49a6-8ecf-c7d2e23f88e3
+		summarizeBy: none
+		sourceColumn: JDUGE0
+
+		annotation SummarizationSetBy = Automatic
+
+	column DAGSTYPE
+		dataType: string
+		lineageTag: e96aef7d-87c4-48d9-9d23-bd712efbb3eb
+		summarizeBy: none
+		sourceColumn: DAGSTYPE
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATO_KORT
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 9f3e4966-e31b-4d5a-b7ee-eaac89a51c8d
+		summarizeBy: none
+		sourceColumn: DATO_KORT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column UTCDIFF
+		dataType: int64
+		formatString: 0
+		lineageTag: b1dcf422-9049-4065-9aeb-975c0d8a5f78
+		summarizeBy: sum
+		sourceColumn: UTCDIFF
+
+		annotation SummarizationSetBy = Automatic
+
+	column DAGIÅR
+		dataType: int64
+		formatString: 0
+		lineageTag: 345d32b2-cb67-4b78-a458-3c996a3d87e6
+		summarizeBy: sum
+		sourceColumn: DAGIÅR
+
+		annotation SummarizationSetBy = Automatic
+
+	column ÅR_KORT
+		dataType: int64
+		formatString: 0
+		lineageTag: 475582f3-60ed-43a2-87cb-7db5a9146dd7
+		summarizeBy: sum
+		sourceColumn: ÅR_KORT
+
+		annotation SummarizationSetBy = Automatic
+
+	column MÅNEDNAVN_L
+		dataType: string
+		lineageTag: a4db3476-577d-423e-ae08-1508d8ba633c
+		summarizeBy: none
+		sourceColumn: MÅNEDNAVN_L
+		sortByColumn: MÅNED
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column DAGNAVN_L
+		dataType: string
+		lineageTag: 68ab70b7-71de-4747-b34a-f95cc70e73ec
+		summarizeBy: none
+		sourceColumn: DAGNAVN_L
+
+		annotation SummarizationSetBy = Automatic
+
+	column DAGHELLIGDAG_L
+		dataType: string
+		lineageTag: 223d9eb9-12be-41d6-9090-e1812788cbd6
+		summarizeBy: none
+		sourceColumn: DAGHELLIGDAG_L
+
+		annotation SummarizationSetBy = Automatic
+
+	column DAGSTYPE_L
+		dataType: string
+		lineageTag: 30be2623-7010-491e-9a6e-3d4715259546
+		summarizeBy: none
+		sourceColumn: DAGSTYPE_L
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'ANALYST v_dim_Tid_Kalender' = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("dsbazapp0317", "dwmart"),
+				    ANALYST_v_dim_Tid_Kalender = Source{[Schema="ANALYST",Item="v_dim_Tid_Kalender"]}[Data]
+				in
+				    ANALYST_v_dim_Tid_Kalender
+
+	annotation PBI_ResultType = Table
+
